@@ -21,6 +21,7 @@ public class BookServiceTest {
         book.setType("测试数据123");
         book.setName("测试数据123");
         book.setDescription("测试数据123");
+        book.setDescription("测试数据123");
         ibookService.save(book);
     }
     @Test
